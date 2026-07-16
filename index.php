@@ -1,12 +1,18 @@
-<?php
-echo "My name is: Chezter Aquino <br>";
-echo "I am 20 years old. <br>";
-echo "My favorite subject is: Web Programming <br>";
-echo "My dream job is: Data Analyst <br>";
-echo "My motto in  life is: 'The more you give, the more you receieve.' <br>";
-echo "Here is my ASCII Art: <br>";
-echo " _._     _,-'''`-._ <br>";
-echo "(,-.`._,'(       |\`-/| <br>";
-echo "    `-.-' \ )-`( , o o) <br>";
-echo "          `-    \`_`'''- ";
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php" method="get">
+    <label for="">Name:</label>
+    <input type="text" name="fullname" id=""><br>
+    <label for=""> Email:</label>
+    <input type="email" name="email" id=""> <br>
+    <label for="">Message</label>
+    <textarea name="message" id=""></textarea> <br>
+    <input type="submit" value="send Message"> <br>
+</body>
+</html>
