@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.profile-box{
+    background-color: orange;
+}
